@@ -1,5 +1,5 @@
 - name: Install
   uses: posit-dev/setup-air@v1
-  
-- name: Check
+
+- name: Format
   run: air format .
