@@ -1,7 +1,5 @@
-name: Setup Air Demo
-run-name: ${{ github.actor }} is testing out Setup Air Actions🚀
-on: [push]
 - name: Install
   uses: posit-dev/setup-air@v1
+  
 - name: Check
   run: air format .
