@@ -3,7 +3,9 @@ run-name: ${{ github.actor }} is testing out Setup Air Actions🚀
 on: [push]
 jobs:
   Setup-Air:
-  - name: Install
-    uses: posit-dev/setup-air@v1
-  - name: Check
-    run: air format . --check
+      runs-on: ubuntu-latest
+      steps:
+      - name: Install
+        uses: posit-dev/setup-air@v1
+      - name: Check
+        run: air format . --check
