@@ -21,6 +21,6 @@ jobs:
         uses: posit-dev/setup-air@v1
 
       - name: Check
-        run: echo "💡 The ${{ github.repository }} repository is being checked by Air."
+        #run: echo "💡 The ${{ github.repository }} repository is being checked by Air."
         run: air format . --check
-        run: echo "🖥️ Checking complete."
+        #run: echo "🖥️ Checking complete."
