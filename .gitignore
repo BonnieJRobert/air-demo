@@ -42,3 +42,4 @@ docs/
 rsconnect/
 
 scratch/
+!.git/hooks/pre-receive
