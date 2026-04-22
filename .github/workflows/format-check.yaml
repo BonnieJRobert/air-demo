@@ -1,5 +1,4 @@
 # Workflow derived from https://github.com/posit-dev/setup-air/tree/main/examples
-
 on:
   push:
     branches: [main, master]
