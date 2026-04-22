@@ -1,6 +1,6 @@
 # Workflow derived from https://github.com/posit-dev/setup-air/tree/main/examples
-name: Setup Air Demo
-run-name: ${{ github.actor }} is testing out Setup Air Actions🚀
+#name: Setup Air Demo
+#run-name: ${{ github.actor }} is testing out Setup Air Actions🚀
 on:
   push:
     branches: [main, master]
