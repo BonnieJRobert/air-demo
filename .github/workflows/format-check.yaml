@@ -1,6 +1,5 @@
 # Workflow derived from https://github.com/posit-dev/setup-air/tree/main/examples
-#name: Setup Air Demo
-#run-name: ${{ github.actor }} is testing out Setup Air Actions🚀
+
 on:
   push:
     branches: [main, master]
@@ -21,6 +20,4 @@ jobs:
         uses: posit-dev/setup-air@v1
 
       - name: Check
-        #run: echo "💡 The ${{ github.repository }} repository is being checked by Air."
         run: air format . --check
-        #run: echo "🖥️ Checking complete."
