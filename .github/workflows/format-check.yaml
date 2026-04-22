@@ -1,9 +1,9 @@
 # Workflow derived from https://github.com/posit-dev/setup-air/tree/main/examples
+
 on:
   push:
     branches: [main, master]
   pull_request:
-    branches: [main, master]
 
 name: format-check.yaml
 
@@ -20,4 +20,4 @@ jobs:
         uses: posit-dev/setup-air@v1
 
       - name: Check
-        run: air format .
+        run: air format . --check
