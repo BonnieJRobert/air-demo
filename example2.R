@@ -9,7 +9,6 @@ info <- as.data.frame(
   x = x,
   f = fav_animal,
   v = likes_veggie,
-  w = x,
-  a = f
+  w = x,a = f
 )
 info |> pull(f)
