@@ -1,7 +1,7 @@
 library(ggplot2)
 library(dplyr)
 
-x = c(4,5,6,7, 8, 9, 10)
+x = c(4, 5, 6, 7, 8, 9, 10)
 fav_animal <- "cat"
 likes_veggie <- "no"
 
