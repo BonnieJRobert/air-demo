@@ -12,4 +12,8 @@ info <- data.frame(
   w = x
 )
 
-info|>mutate(x=2*x)|>filter(likes_veggie=="no")|>mutate(y=glue::glue("My favorite animal is a {f}"))|>select(w,y)
+info |>
+  mutate(x = 2 * x) |>
+  filter(likes_veggie == "no") |>
+  mutate(y = glue::glue("My favorite animal is a {f}")) |>
+  select(w, y)
